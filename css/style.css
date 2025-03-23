@@ -14,27 +14,67 @@ header h1 {
 .imageOrange {
     width: 300px;
     height: 300px;
-    border: 10px double #000000;
+    border: 10px double #073b19;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
     margin-top: 70px;
 }
 
   .initialName {
     margin-top: 65px;
     font-size: xx-large;
+    color:#073b19;
   }
+
+.photoIcons {
+  width: 20px;
+  height: 20px;
+}
+
+.mainName {
+  color: #073b19;
+}
+
+li {
+  background-color: #073b19ad;
+  border-radius: 8px;
+  box-shadow: 10px 10px 5px rgb(4, 45, 4);
+  a:hover {
+
+    color: #43e97b;
+    border-radius: 4px;
+   }
+}
+
+li a {
+ color: #11ae48;
+}
+
+
+
+
 
   @media only screen and (max-width: 766px) {
     
     body {
-      background: rgb(0,0,0);
-      background: linear-gradient(0deg, rgba(0,0,0,1) 7%, rgba(17,107,34,1) 54%);
+      background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
       background-repeat: no-repeat;
+      font-family: "Faulty Glyphic", sans-serif;
     }
 
-    .mainName {
-      color: springgreen;
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
     }
+
+    li {
+      border: 2px solid green;
+      margin-bottom: 6px;
+    }
+
+    li a {
+      color: #073b19;
+    }
+    
   } 

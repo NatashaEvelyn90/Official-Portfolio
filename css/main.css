@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    background-image: url("../media/Screenshot\ 2025-03-23\ 175907.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1272px;
+    height: 560px;
+    opacity: .5;
+    display: block;
+    transition: 1.5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: 2.5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 60%;
+    left: 100%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+  
+  .container:hover .image {
+    filter: blur(6px) brightness(30%);
+  }
+  
+  .container:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: #227425;
+    box-shadow: 20px 20px 10px 10px rgb(4, 45, 4);
+    border-radius: 6px;
+    color: white;
+    font-size: 30px;
+    padding: 25px 25px;
+    cursor: pointer;
+  }
+
+  @media only screen and (max-width: 766px) {
+
+    .image {
+        background-image: url("../media/20230225_081059.jpg");
+        background-size: auto;
+        
+    }
+  }

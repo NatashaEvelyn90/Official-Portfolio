@@ -10,14 +10,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Faculty+Glyphic&display=swap" rel="stylesheet">
-    <title>Natasha's Portfolio</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Official Portfolio</title>
 </head>
 
 <body>
     <header role="banner">
         <h1 class="text-center fw-bolder d-none d-sm-block mainName">Natasha M. Evelyn</h1>
         <div>
-            <div class="d-flex flex-row justify-content-around align-items-end">
+            <div class="d-flex flex-row justify-content-around align-items-center">
                 <div>
                     <img class="imageOrange d-none d-sm-block p-0 ms-3" src="./media/headshot.jpg" alt="picture of Natasha Evelyn with orange curly hair">
                 </div>
@@ -25,7 +26,6 @@
                 <div class="backgroundNav">
                     <ul class="nav text-center d-none d-sm-block fs-2">
                         <li class="m-2 p-4"><a class="text-decoration-none" href="#"><img src="" alt="">About</a></li>
-                        <li class="m-2 p-4"><a class="text-decoration-none" href="#"><img src="" alt="">Resume</a></li>
                         <li class="m-2 p-4"><a class="text-decoration-none" href="#"><img src="" alt="">Projects</a></li>
                         <li class="m-2 p-4"><a class="text-decoration-none" href="#"><img src="" alt="">Contact</a></li>
                     </ul>
@@ -37,7 +37,6 @@
             
             <ul class="nav text-center d-block d-sm-none fs-2">
                 <li><a class="text-decoration-none" href="#">About</a></li>
-                <li><a class="text-decoration-none" href="#">Resume'</a></li>
                 <li><a class="text-decoration-none" href="#">Projects</a></li>
                 <li><a class="text-decoration-none" href="#">Contact</a></li>
             </ul>
@@ -45,5 +44,56 @@
         </div>
 
     </header>
+
+    <main>
+        <section>
+            <h2>About Me</h2>
+            <p>Hello, my name is Naasha Evelyn and I am someone who loves to dabble and try new things. Huge fan of multiple things in the arts; such as Music, Art and Theatre.</p>
+            <p>Below is a list of skills that I have attained through schooling and Multiple career paths. </p>
+
+            <article>
+                <div data-aos="fade-right">
+
+                    <h3 class="skill">Skills</h3>
+                    <div class="d-flex flex-wrap">
+
+                        <ul class="hard">
+                            <h4>Hard Skills</h4>
+                            <li>Bootstrap</li>
+                            <li>65 WPM</li>
+                            <li>CSS</li>
+                            <li>HTML</li>
+                            <li>Illustrator</li>
+                            <li>InDesign</li>
+                            <li>Microsoft Office Suite</li>
+                            <li>Merchandising</li>
+                            <li>Ordering Management Systems</li>
+                            <li>Plan-O-Grams</li>
+                            <li>Software/Hardware Tech Support</li>
+                        </ul>
+                        <ul class="soft">
+                            <h4>Soft Skills</h4>
+                            <li>Creative</li>
+                            <li>Customer Service</li>
+                            <li>Decision-Making</li>
+                            <li>Empathy</li>
+                            <li>Kind</li>
+                            <li>Problem Solving</li>
+                            <li>Retail Sales</li>
+                            <li>Reporting and Presentation</li>
+                            <li>Social Media Skills</li>
+                            <li>Teamwork</li>
+                            <li>Time Management</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </article>
+        </section>
+    </main>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>

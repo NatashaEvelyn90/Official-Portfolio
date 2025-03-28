@@ -1,10 +1,18 @@
 body {
-  background: rgb(56,62,57);
-  background: linear-gradient(45deg, rgba(56,62,57,1) 0%, rgba(53,203,95,1) 40%, rgba(9,121,30,1) 60%, rgba(255,255,255,1) 100%);
-  background-repeat: no-repeat;
+  background: rgb(0, 0, 0);
+  background-image: url("../media/54107357754_d73865de3f_k.jpg");
   background-size: contain;
+  background-repeat: no-repeat;
   
 }
+
+header {
+  width: 100%;
+  height: 590px;
+  background-color: #a7933c76;
+}
+
+
 
 header h1 {
   font-family: "Quicksand", sans-serif;
@@ -12,18 +20,11 @@ header h1 {
 }
 
 .imageOrange {
-    width: 300px;
-    height: 300px;
-    border: 10px double #073b19;
+    width: 400px;
+    height: 400px;
+    border: 10px double #663710;
     display: block;
-    margin-top: 70px;
 }
-
-  .initialName {
-    margin-top: 65px;
-    font-size: xx-large;
-    color:#073b19;
-  }
 
 .photoIcons {
   width: 20px;
@@ -31,36 +32,73 @@ header h1 {
 }
 
 .mainName {
-  color: #073b19;
+  color: #e79f64;
 }
 
-li {
-  background-color: #073b19ad;
+header li {
+  background-color: #3b3607ad;
   border-radius: 8px;
-  box-shadow: 10px 10px 5px rgb(4, 45, 4);
+  box-shadow: 10px 10px 5px rgb(34 15 2 / 59%);
   a:hover {
 
-    color: #43e97b;
+    color: #3ca749;
     border-radius: 4px;
+    cursor: url(../media/star-4pt-round.svg) auto;
    }
 }
 
 li a {
- color: #11ae48;
+ color: #e79f64;
 }
 
+*,*::before, *::after {
+  box-sizing: border-box;
+}
 
+.hard {
+  width: 300px;
+  padding: 20px;
+  margin: 10px;
+  margin-left: 150px;
+  border: 5px double #000000;
+  background-color: #438d4e;
+  /* box-shadow: 15px 15px 5px rgb(10, 75, 10); */
+  display: inline-block;
+  vertical-align: top;
+  font-size: smaller;
+}
 
+.soft {
+  width: 300px;
+  padding: 20px;
+  margin: 10px;
+  margin-left: 25px;
+  border: 5px double #000000;
+  background-color: #438d4e;
+  /* box-shadow: 15px 15px 5px rgb(5, 51, 5); */
+  display: inline-block;
+  vertical-align: top;
+  font-size: smaller;
+}
+
+h4 {
+
+}
 
 
   @media only screen and (max-width: 766px) {
     
     body {
-      background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
-      background-repeat: no-repeat;
       font-family: "Faulty Glyphic", sans-serif;
+      background-image: url(../media/pillars\ of\ creation.jpg);
+      background-attachment: fixed;
+      background-size: cover;
     }
 
+    header {
+      background-color: transparent;
+      height: 20px;
+    }
 
     ul {
       list-style-type: none;
@@ -69,12 +107,46 @@ li a {
     }
 
     li {
-      border: 2px solid green;
+      border: 2px solid rgb(128, 62, 0);
       margin-bottom: 6px;
     }
 
     li a {
-      color: #073b19;
+      color: #9ab9a5;
     }
     
+    .initialName {
+      margin-top: 65px;
+      font-size: xx-large;
+      color:#9ab9a5;
+    }
+
+    *,*::before, *::after {
+      box-sizing: border-box;
+    }
+    
+    .hard {
+      width: 300px;
+      padding: 20px;
+      margin: 10px;
+      border: 5px double #000000;
+      background-color: #438d4e;
+      /* box-shadow: 15px 15px 5px rgb(10, 75, 10); */
+      display: inline-block;
+      vertical-align: top;
+      font-size: smaller;
+    }
+    
+    .soft {
+      width: 300px;
+      padding: 20px;
+      margin: 10px;
+      border: 5px double #000000;
+      background-color: #438d4e;
+      /* box-shadow: 15px 15px 5px rgb(5, 51, 5); */
+      display: inline-block;
+      vertical-align: top;
+      font-size: smaller;
+    }
+
   } 

@@ -54,34 +54,78 @@ li a {
 }
 
 .hard {
-  width: 300px;
+  width: 314px;
   padding: 20px;
-
   border: 5px double #000000;
   background-color: #438d4e;
   /* box-shadow: 15px 15px 5px rgb(10, 75, 10); */
   display: inline-block;
   vertical-align: top;
   font-size: smaller;
+  margin-bottom: 2px;
 }
 
 .soft {
-  width: 300px;
+  width: 314px;
   padding: 20px;
-  margin-left: 25px;
   border: 5px double #000000;
   background-color: #438d4e;
   /* box-shadow: 15px 15px 5px rgb(5, 51, 5); */
   display: inline-block;
   vertical-align: top;
   font-size: smaller;
+  margin-bottom: 0px;
+}
+
+.skills {
+  list-style-type: none;
+}
+
+h3 {
+  text-align: center;
+}
+
+.educationSect {
+  background-color: #0c5114;
+  border: 5px double black;
+}
+
+.college {
+  list-style-type: square;
+  color: red;
+}
+
+.certs {
+  margin-top: 20px;
+  background-color: #0c5114;
+  border: 5px double black;
+}
+
+.certTitle {
+  margin-bottom: 32px;
 }
 
 .meSection {
-  width: 50%;
-  height: 320px;
   background-color: #3ca749;
+  border: 5px double black;
 }
+
+.carouselText {
+  color: rgb(152, 16, 16);
+}
+
+
+.contacts {
+  color: white;
+}
+ 
+
+
+
+
+
+
+
 
 
   @media only screen and (max-width: 766px) {
@@ -127,13 +171,16 @@ li a {
     }
     
     .meSection {
-      width: 100%;
-      background-color: #3ca749;
+      
+      background-color: #3ca74890;
     }
 
+    .aboutMe {
+      margin-top: 85%;
+    }
 
     .hard {
-      width: 300px;
+      width: 320px;
       padding: 20px;
       border: 5px double #000000;
       background-color: #42b12cb2;
@@ -145,8 +192,9 @@ li a {
     }
     
     .soft {
-      width: 300px;
+      width: 320px;
       padding: 20px;
+      margin-left: 0px;
       border: 5px double #000000;
       background-color: #42b12cb2;
       /* box-shadow: 15px 15px 5px rgb(5, 51, 5); */
@@ -154,6 +202,16 @@ li a {
       vertical-align: top;
       font-size: smaller;
       text-align: center;
+    }
+
+    .educationSect {
+      background-color: #0c51149e;
+      border: 5px double black;
+    }
+
+    .certs {
+      background-color: #0c51149e;
+      border: 5px double black;
     }
 
   } 

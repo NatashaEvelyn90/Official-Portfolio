@@ -9,8 +9,8 @@ body {
   }
   
   .image {
-    background-image: url("../media/Screenshot\ 2025-03-23\ 175907.png");
-    background-size: cover;
+    background-image: url("../media/sombrero\ galaxy.jpg");
+    background-size: contain;
     background-repeat: no-repeat;
     width: 1272px;
     height: 560px;
@@ -51,8 +51,9 @@ body {
   @media only screen and (max-width: 766px) {
 
     .image {
-        background-image: url("../media/20230225_081059.jpg");
-        background-size: auto;
+        background-image: url("../media/ngc\ 2835.png");
+        background-size:contain;
+        background-attachment: fixed;
         
     }
   }

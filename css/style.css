@@ -3,6 +3,7 @@ body {
   background-image: url("../media/54107357754_d73865de3f_k.jpg");
   background-size: contain;
   background-repeat: no-repeat;
+  font-family: "Quicksand", sans-serif;
   
 }
 
@@ -12,6 +13,7 @@ header {
   background-color: #a7933c76;
 }
 
+/* Large header */
 
 header h1 {
   font-family: "Quicksand", sans-serif;
@@ -25,9 +27,10 @@ header h1 {
     display: block;
 }
 
-.photoIcons {
-  width: 20px;
-  height: 20px;
+main {
+  background-image: url(../media/2024\ eclipse.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .mainName {
@@ -41,12 +44,39 @@ header li {
   a:hover {
     color: #3ca749;
     border-radius: 4px;
-    cursor: url(../media/star-4pt-round.svg) auto;
    }
+}
+
+.extraBar {
+  width: 100%;
+  height: 70px;
+  background: rgb(167,147,60);
+background: linear-gradient(180deg, rgba(167,147,60,0.46) 0%, rgba(0,0,0,1) 50%);
+}
+
+/* Begin Main Section */
+
+.arrows {
+  width: 130px;
+  margin-top: 38%;
 }
 
 li a {
  color: #e79f64;
+}
+
+.meSection {
+  font-family: "Quicksand", sans-serif;
+  background-color: #3ca748a1;
+  border: 5px double black;
+}
+
+.aboutMe {
+  color: #ffa500;
+}
+
+.meText {
+  color: white;
 }
 
 *,*::before, *::after {
@@ -57,19 +87,19 @@ li a {
   width: 314px;
   padding: 20px;
   border: 5px double #000000;
-  background-color: #438d4e;
+  background-color: #0e3712bd;
   /* box-shadow: 15px 15px 5px rgb(10, 75, 10); */
   display: inline-block;
   vertical-align: top;
   font-size: smaller;
-  margin-bottom: 2px;
+  margin-bottom: 26px;
 }
 
 .soft {
   width: 314px;
   padding: 20px;
   border: 5px double #000000;
-  background-color: #438d4e;
+  background-color: #0e3712bd;
   /* box-shadow: 15px 15px 5px rgb(5, 51, 5); */
   display: inline-block;
   vertical-align: top;
@@ -79,36 +109,39 @@ li a {
 
 .skills {
   list-style-type: none;
+  color: #42c0fb;
 }
+
 
 h3 {
   text-align: center;
+  color: #ffa500;
 }
 
 .educationSect {
-  background-color: #0c5114;
+  font-family: "Quicksand", sans-serif;
+  background-color: #3ca748a1;
   border: 5px double black;
+  color: #ffa500;
 }
 
 .college {
   list-style-type: square;
-  color: red;
+  color: #42c0fb
 }
 
 .certs {
+  font-family: "Quicksand", sans-serif;
   margin-top: 20px;
-  background-color: #0c5114;
+  background-color: #3ca748a1;
   border: 5px double black;
+  color: #ffa500;
 }
 
 .certTitle {
   margin-bottom: 32px;
 }
 
-.meSection {
-  background-color: #3ca749;
-  border: 5px double black;
-}
 
 .carouselText {
   color: rgb(152, 16, 16);
@@ -119,7 +152,13 @@ h3 {
   color: white;
 }
  
+.card-img-top {
+  height: 272px;
+}
 
+footer {
+  background-color: #e79f64;
+}
 
 
 
@@ -131,7 +170,7 @@ h3 {
   @media only screen and (max-width: 766px) {
 
     header li {
-      background-color: #42b12cb2;
+      background-color: #0c51149e;
     }
     
     body {
@@ -143,8 +182,10 @@ h3 {
 
     header {
       background-color: transparent;
-      height: 20px;
+      height: 260px;
+      
     }
+
 
     ul {
       list-style-type: none;
@@ -152,18 +193,29 @@ h3 {
       padding: 0;
     }
 
-    li {
-      margin-bottom: 6px;
+
+    header li {
+      margin-bottom: 5px;
+      padding: 10px;
+      color: white;
+      a:hover {
+        color: #ffa500;
+      }
+      
     }
 
     li a {
-      color: #9ab9a5;
-    }
+      color: white;
+  }
+
+  main {
+    background-image: none;
+  }
     
     .initialName {
-      margin-top: 65px;
+      margin-top: 20px;
       font-size: xx-large;
-      color:#9ab9a5;
+      color:white;
     }
 
     *,*::before, *::after {
@@ -171,47 +223,61 @@ h3 {
     }
     
     .meSection {
-      
-      background-color: #3ca74890;
+      font-family: "Faulty Glyphic", sans-serif;
+      background-color: #0c51149e;
+      margin-top: 35%;
+      box-shadow: 10px 10px 5px rgb(34 15 2 / 59%);
     }
 
-    .aboutMe {
-      margin-top: 85%;
+
+    .meText {
+      color: white;
     }
 
     .hard {
       width: 320px;
       padding: 20px;
+      margin-top: 20px;
+      margin-bottom: 0px;
       border: 5px double #000000;
-      background-color: #42b12cb2;
+      background-color: #0c51149e;
       /* box-shadow: 15px 15px 5px rgb(10, 75, 10); */
       display: inline-block;
       vertical-align: top;
       font-size: smaller;
       text-align: center;
+      box-shadow: 10px 10px 5px rgb(34 15 2 / 59%);
     }
     
     .soft {
       width: 320px;
       padding: 20px;
       margin-left: 0px;
+      margin-bottom: 20px;
       border: 5px double #000000;
-      background-color: #42b12cb2;
+      background-color: #0c51149e;
       /* box-shadow: 15px 15px 5px rgb(5, 51, 5); */
       display: inline-block;
       vertical-align: top;
       font-size: smaller;
       text-align: center;
+      box-shadow: 10px 10px 5px rgb(34 15 2 / 59%);
     }
 
     .educationSect {
       background-color: #0c51149e;
       border: 5px double black;
+      box-shadow: 10px 10px 5px rgb(34 15 2 / 59%);
     }
 
     .certs {
       background-color: #0c51149e;
       border: 5px double black;
+      box-shadow: 10px 10px 5px rgb(34 15 2 / 59%);
     }
+
+   .card {
+    margin-bottom: 30px;
+   }
 
   } 

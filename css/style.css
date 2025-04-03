@@ -56,6 +56,12 @@ background: linear-gradient(180deg, rgba(167,147,60,0.46) 0%, rgba(0,0,0,1) 50%)
 
 /* Begin Main Section */
 
+.socials:hover {
+  width: 100px;
+  height: 100px;
+  transition: ease 2s;
+}
+
 .arrows {
   width: 130px;
   margin-top: 38%;
@@ -152,6 +158,11 @@ h3 {
   color: white;
 }
  
+
+.card {
+  
+}
+
 .card-img-top {
   height: 272px;
 }

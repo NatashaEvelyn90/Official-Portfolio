@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./css/style2.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Nanum+Pen+Script&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Portfolio</title>
 </head>
@@ -41,13 +41,13 @@
         
         <div class="d-flex align-items-center">
             <ul class="d-none d-sm-block">
-                <li><a href="./me.html" class="navigation text-center" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">About Me</a></li>
-                <li><a href="" class="navigation text-center" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">Coding Skills</a></li>
-                <li><a href="" class="navigation text-center" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">Projects</a></li>
+                <li><a href="./me.html" class="navigation text-center" data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine">About Me</a></li>
+                <li><a href="" class="navigation text-center" data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine">Coding Skills</a></li>
+                <li><a href="" class="navigation text-center" data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine">Projects</a></li>
             </ul>
             
             <div class="d-flex flex wrap flex-row-reverse">
-                <img src="./media/headshot.jpg" alt="Natasha with Orange hair" class="mainImage d-none d-sm-block" data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="500" width="350" height="450">
+                <img src="./media/headshot.jpg" alt="Natasha with Orange hair" class="mainImage d-none d-sm-block filter" data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="500" width="350" height="450">
                 
                 <div class="mainImageTwo d-none d-sm-block" data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="700">                
                 </div> 
@@ -56,11 +56,14 @@
             </div>
         </div>
     </header>
-    <main>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init();</script>
+    <footer>
         <section class="socialMedia">
             <div class="container-fluid">
-                <div class="row">
-                    <div class="logos text-center mt-5">
+                <div class="row align-items-sm-end">
+                    <div class="logos text-center mt-3 col-12 col-sm-6">
                         <a href="https://www.facebook.com/natasha.evelyn.309819/" target="_blank"><img src="./media/facebook-3-64.png" class="socials" alt="Facebook logo" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0"></a>
     
                         <a href="https://github.com/NatashaEvelyn90" target="_blank"><img src="./media/github-8-64.png" class="socials" alt="Github Logo" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="400" data-aos-offset="0"></a>
@@ -69,14 +72,12 @@
     
                         <a href=""><img src="./media/email-13-64.png" alt="Email logo" class="socials" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="600" data-aos-offset="0"></a>
                     </div>
+                    <div class="col-12 text-center col-sm-6">
+                        <h5>&copy; Natasha M Evelyn Official Portfolio <br>All Rights Reserved</h5>
+                    </div>
                 </div>
             </div>    
         </section>
-    </main>
-    <footer>
-        &copy; Natasha M Evelyn Portfolio. All Rights Reserved
     </footer>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>AOS.init();</script>
 </body>
 </html>

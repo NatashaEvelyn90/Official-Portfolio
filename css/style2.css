@@ -1,0 +1,103 @@
+body {
+    background-color: black;
+    font-family: "Bodoni Moda SC", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.mainName {
+    color: white;
+    text-shadow: rgba(83,207,141,1) 0px 0px 14px;
+    transform: rotate(270deg);
+    font-size: xxx-large;
+}
+
+.mainNameTwo {
+    color: rgb(27, 81, 18);
+    text-shadow: rgba(255,162,0,1) 0px 0px 50px;
+    transform: rotate(270deg);
+    font-size: xxx-large;
+}
+
+.mainImage {
+    position: relative;
+  
+    clip-path: polygon(25% 0%, 100% 0, 100% 100%, 25% 100%, 0% 50%);
+}
+
+.mainImageTwo {
+    position: relative;
+   left: 5%;
+    width: 350px;
+    height: 450px;
+    background-color: #ffa600;
+    clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+}
+
+.mainImageThree {
+    position: relative;
+    left: 10%;
+    width: 350px;
+    height: 450px;
+    background-color: #42c0fb;
+    clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+}
+
+ul {
+    list-style-type: none;
+    margin-left: 5px;
+    padding: 0;
+}
+
+li a {
+    display: block;
+    text-decoration: none;
+    font-size: x-large;
+}
+
+.navigation {
+width: 115%;
+padding: 32px;
+margin-bottom: 15px;
+background-color: #ffa600;
+color: white;
+&:hover {
+    background-color: green;
+    color: #ffa600;
+}
+}
+
+/* Social Media */
+.socials:hover {
+    width: 85px;
+    height: 85px;
+    margin-bottom: 10px;
+    transition: ease 2s;
+  }
+
+footer {
+    color: #42c0fb;
+}
+
+@media only screen and (max-width: 766px) {
+
+    ul {
+        list-style-type: none;
+        margin-left: 5px;
+        padding: 0;
+    }
+
+    .navigationSmall {
+        width: 105%;
+        padding: 32px;
+        margin-bottom: 15px;
+        color: white;
+    }
+
+    .phoneLogo {
+        width: 55px;
+        height: 55px;
+    }
+
+}
+    

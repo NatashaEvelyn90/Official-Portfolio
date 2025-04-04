@@ -198,19 +198,35 @@ h3 {
   color: white;
 }
  
+.aboutProject {
+  color: #42c0fb;
+}
 
 .card {
-  
+  background-color: #42c0fb67;
 }
 
 .card-img-top {
   height: 272px;
+  box-shadow: 7px 17px 12px 2px black
 }
 
-footer {
-  background-color: #e79f64;
+.buttonColor {
+  background-color: #083143d6;
+    color: white;
+    padding: 12px;
+    border-radius: 10px;
+    box-shadow: 8px 8px 12px 2px black;
+    &:hover {
+      background-color: #ffa6008d;
+      color: #000000;
+    }
 }
+ 
 
+.contactH2 {
+  color: white;
+}
 
 
 

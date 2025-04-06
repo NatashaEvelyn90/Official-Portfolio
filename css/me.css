@@ -155,7 +155,7 @@ span {
 }
 
 .projectBox {
-    height: 250px;
+    height: 350px;
 }
 
 .card-text {
@@ -178,7 +178,7 @@ button a {
 }
 
 
-@media only screen and (max-device-width: 766px) {
+@media only screen and (max-width: 767px) {
 
     html {
         background-color: black;
@@ -190,45 +190,60 @@ button a {
         font-style: normal;
     }
 
+    ul {
+        list-style-type: none;
+        width: 100%;
+        padding-left: 0px;
+    }
+
     .navSmall {
-        position: fixed;
-        width: auto;
-        margin-top: 127%;
         background-color: rgba(9, 80, 9, 0.505);
-        z-index: 9999;
     }
 
     .nameTitle {
-        font-size: xxx-large;
         color: #ffa600;
     }
 
-    .greenHeart {
-        position: absolute;
-        right: 10%;
-        top: 10%;
-        width: 70px;
-        height: 70px;
-        transform: rotate(20deg);
+    .container {
+        width: 300px;
+    }
+
+    .leftBlock {
+        margin-left: 10%;
+        float: left;
+        height: 100px;
+        width: 3px;
+        color: #ffa60000;
+    }
+
+    .rightBlock {
+        margin-right: 10%;
+        background-color: #ffa60000;
+        float: right;
+        height: 100px;
+        width: 3px;
     }
           
     .dogPhoto {
         position: relative;
-        width: 200px;
-        height: 200px;
+        width: 100%;
+        height: auto;
+        max-width: 72vw;
     }
     
     .tinyIcon {
-        width: 40px;
-        height: 40px;
+        width: 100%;
+        height: auto;
+        max-width: 20vw;
+    
     }
 
     .skills {
         color: #42c0fb;
     }
 
+
     p {
-        font-family: "Bodoni Moda SC" serif;
         color: white;
     }
 
@@ -237,16 +252,21 @@ button a {
         text-decoration: underline;
     }
 
-    .specialPara {
-        width: 100%;
+
+    .specialParaTwo{
+        margin-left: 0px;
+        margin-right: 0px;
     }
 
     .card-body {
-        height: 200px;
+        height: 150px;
         background-color: black;
         border: 5px solid #42c0fb;
     }
 
+    .projectBox {
+        height: 350px;
+    }
 
     .buttonColor {
         background-color: #42c0fb;
@@ -263,64 +283,4 @@ button a {
         text-decoration: none;
     }
 
-}
-
-@media only screen and (min-width: 375px) {
-    .navSmall {
-        position: fixed;
-        margin-top: 105.5%;
-        background-color: rgba(9, 80, 9, 0.505);
-        z-index: 9999;
-    }
-
-    .tinyIcon {
-        width: 50px;
-        height: 50px;
-    }
-
-    .dogPhoto {
-        position: relative;
-        width: 200px;
-        height: 200px;
-    }
-
-    .greenHeart {
-        position: absolute;
-        right: 10%;
-        top: 10%;
-        width: 70px;
-        height: 70px;
-        transform: rotate(20deg);
-    }
-      
-}
-
-@media only screen and (min-width: 425px) {
-    .navSmall {
-        position: fixed;
-        margin-top: 91%;
-        background-color: rgba(9, 80, 9, 0.505);
-        z-index: 9999;
-    }
-
-    .tinyIcon {
-        width: 60px;
-        height: 60px;
-    }
-
-    .dogPhoto {
-        position: relative;
-        width: 200px;
-        height: 200px;
-    }
-
-    .greenHeart {
-        position: absolute;
-        right: 10%;
-        top: 10%;
-        width: 70px;
-        height: 70px;
-        transform: rotate(20deg);
-    }
-      
 }

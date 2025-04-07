@@ -7,22 +7,27 @@ header {
     background-color: black;
 }
 
-a {
-   list-style-type: none;
-   padding: 0;
+ul {
+    list-style-type: none;
+    width: 100%;
+}
+li {
+    border: 4px solid black;
+}
+li a {
    display: block;
    font-size: x-large;
+   text-decoration: none;
 }
 
 .navigation {
-    background-color: #ffa600;
-    color: white;
-    padding: 30px;
-    border: 4px solid black;
-    &:hover {
-        background-color: green;
-        color: #ffa600;
-        }
+padding: 32px;
+background-color: #ffa600;
+color: white;
+&:hover {
+    background-color: green;
+    color: #ffa600;
+    }
 }
 
 /* main section */
@@ -108,6 +113,7 @@ a {
 
 .specialPara {
     width: 90%;
+    margin-left: 15px;
 }
 
 .specialParaTwo {
@@ -116,7 +122,7 @@ a {
 }
 
 .codingSection {
-    font-family: "Nanum Pen Script", serif;
+    font-family: "Bodoni Moda SC", serif;
   font-optical-sizing: auto;
   font-style: normal;
 }
@@ -160,6 +166,8 @@ span {
 
 .card-text {
     color: white;
+    font-size: 12px;
+    font-family: "Sour Gummy", serif;
 }
 
 .buttonColor {
@@ -196,12 +204,31 @@ button a {
         padding-left: 0px;
     }
 
+    li {
+        border: 0px;
+    }
+
     .navSmall {
         background-color: rgba(9, 80, 9, 0.505);
     }
 
     .nameTitle {
         color: #ffa600;
+    }
+
+    .nameTitleTwo {
+        color: white;
+        font-size: xx-large;
+    }
+
+    .nameTitleThree {
+        color: #ffa600;
+        font-size: x-large;
+    }
+
+    .nameTitleSpecial {
+        color: green;
+        font-size: xx-large;
     }
 
     .container {
@@ -281,6 +308,7 @@ button a {
 
     button a {
         text-decoration: none;
+        
     }
 
 }

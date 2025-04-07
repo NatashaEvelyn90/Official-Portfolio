@@ -23,7 +23,7 @@ body {
     position: relative;
    left: 5%;
     width: 350px;
-    height: 450px;
+    height: 400px;
     background-color: #ffa600;
     clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
 }
@@ -32,7 +32,7 @@ body {
     position: relative;
     left: 10%;
     width: 350px;
-    height: 450px;
+    height: 400px;
     background-color: #42c0fb;
     clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
 }
@@ -121,7 +121,7 @@ footer {
     .phoneLogo {
       width: 100%;
         height: auto;
-        max-width: 20vw;
+        max-width: 10vw;
       
     }
     

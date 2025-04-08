@@ -6,6 +6,7 @@ body {
   font-size: 2vw;
 }
 
+/* Header begins */
 .mainImage {
     position: relative;
     clip-path: polygon(25% 0%, 100% 0, 100% 100%, 25% 100%, 0% 50%);
@@ -60,7 +61,10 @@ color: white;
     }
 }
 
-/* Social Media */
+/* Header ends */
+
+
+/* Footer begins */
 .socials:hover {
     width: 70px;
     height: 70px;
@@ -101,6 +105,12 @@ color: white;
 footer {
     color: #42c0fb;
 }
+
+/* Footer ends */
+
+
+
+/* smaller devices */
 
 @media only screen and (max-width: 768px) {
 

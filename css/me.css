@@ -185,6 +185,7 @@ button a {
     text-decoration: none;
 }
 
+/* Smaller Screens */
 
 @media only screen and (max-width: 767px) {
 
